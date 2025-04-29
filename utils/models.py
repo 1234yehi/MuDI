@@ -1,6 +1,6 @@
 from segment_anything import sam_model_registry, SamPredictor
 from transformers import Owlv2Processor, Owlv2ForObjectDetection, AutoImageProcessor, AutoModel
-from MuDI.detect_and_compare.dreamsim.dreamsim import dreamsim
+from detect_and_compare.dreamsim.dreamsim import dreamsim
 #from utils.dreamsim.dreamsim import dreamsim
 # from archieve import SAM_ROOT, OWL_ROOT, CACHE_ROOT
 
