@@ -1,6 +1,7 @@
 from segment_anything import sam_model_registry, SamPredictor
 from transformers import Owlv2Processor, Owlv2ForObjectDetection, AutoImageProcessor, AutoModel
-from utils.dreamsim.dreamsim import dreamsim
+from MuDI.detect_and_compare.dreamsim.dreamsim import dreamsim
+#from utils.dreamsim.dreamsim import dreamsim
 # from archieve import SAM_ROOT, OWL_ROOT, CACHE_ROOT
 
 SAM_ROOT = '/data/model/segment-anything/sam_vit_h_4b8939.pth'
